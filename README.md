@@ -4,13 +4,13 @@
 ###### What it does: Adds or subtracts a specified number of intervals (days, months, years, etc.) to a given date, producing a single new date.     
 ###### Use Case: Benchmarking and point-in-time comparisons, such as finding the sales amount for exactly 7 days ago or the same date last year.       
 ###### Returns: A single date.     
-Example: DATEADD('Date'[Date], -7, DAY) returns the date that is 7 days before the current date.     
+###### Example: DATEADD('Date'[Date], -7, DAY) returns the date that is 7 days before the current date.     
 #### DATESINPERIOD    
 ###### Purpose: To generate a table of a dynamic date range, starting from a specified date and continuing for a defined number of intervals.    
 Arguments:    
-Dates: The date column from your date table.     
-Start Date: The date on which to begin the period.     
-Number of Intervals: The number of intervals to extend the period.     
-Interval: The type of interval (DAY, MONTH, QUARTER, or YEAR).     
-Output: Returns a table of dates forming a period.     
-Use Case: Excellent for creating dynamic rolling reports, such as "last 12 months of sales" or "last 3 months," where you need a defined period of dates to filter your data.    
+###### Dates: The date column from your date table.     
+###### Start Date: The date on which to begin the period.     
+###### Number of Intervals: The number of intervals to extend the period.     
+###### Interval: The type of interval (DAY, MONTH, QUARTER, or YEAR).     
+###### Output: Returns a table of dates forming a period.     
+###### Use Case: Excellent for creating dynamic rolling reports, such as "last 12 months of sales" or "last 3 months," where you need a defined period of dates to filter your data.    
